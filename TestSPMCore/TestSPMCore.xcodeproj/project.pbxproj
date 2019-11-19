@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		357BC9C1238380BA00910261 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 357BC9BF238380BA00910261 /* Main.storyboard */; };
 		357BC9C3238380BA00910261 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 357BC9C2238380BA00910261 /* Assets.xcassets */; };
 		357BC9C6238380BA00910261 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 357BC9C4238380BA00910261 /* LaunchScreen.storyboard */; };
+		357BC9D42383894700910261 /* TestSPM in Frameworks */ = {isa = PBXBuildFile; productRef = 357BC9D32383894700910261 /* TestSPM */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				357BC9D42383894700910261 /* TestSPM in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +46,7 @@
 				357BC9CD238384BF00910261 /* TestSPM */,
 				357BC9B8238380BA00910261 /* TestSPMCore */,
 				357BC9B7238380BA00910261 /* Products */,
+				357BC9D0238388E400910261 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +72,13 @@
 			path = TestSPMCore;
 			sourceTree = "<group>";
 		};
+		357BC9D0238388E400910261 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,6 +95,9 @@
 			dependencies = (
 			);
 			name = TestSPMCore;
+			packageProductDependencies = (
+				357BC9D32383894700910261 /* TestSPM */,
+			);
 			productName = TestSPMCore;
 			productReference = 357BC9B6238380BA00910261 /* TestSPMCore.app */;
 			productType = "com.apple.product-type.application";
@@ -338,6 +351,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		357BC9D32383894700910261 /* TestSPM */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TestSPM;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 357BC9AE238380BA00910261 /* Project object */;
 }
