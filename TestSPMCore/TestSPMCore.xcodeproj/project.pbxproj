@@ -24,6 +24,7 @@
 		357BC9C2238380BA00910261 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		357BC9C5238380BA00910261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		357BC9C7238380BA00910261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		357BC9CD238384BF00910261 /* TestSPM */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TestSPM; path = ../TestSPM; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 		357BC9AD238380BA00910261 = {
 			isa = PBXGroup;
 			children = (
+				357BC9CD238384BF00910261 /* TestSPM */,
 				357BC9B8238380BA00910261 /* TestSPMCore */,
 				357BC9B7238380BA00910261 /* Products */,
 			);
